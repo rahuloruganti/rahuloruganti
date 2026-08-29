@@ -8,10 +8,10 @@
 
 ## 🧭 About Me
 
-- 🔭 Currently: **AI & Mitigation intern @ UNFCCC**, building AI tooling for climate-policy workflows (NDCs, Article 6, carbon-market registries)
+- 🔭 Currently: **AI & Mitigation intern @ UNFCCC**, building AI tooling for climate-policy workflows
 - 🧠 Into: **RAG systems, LLM evaluation, QLoRA fine-tuning, knowledge graphs**
 - ⚙️ Philosophy: if a workflow is boring, it should automate itself
-- 🌍 Based in Cottbus, Germany · open to collaborating on **AI × climate policy**
+- 🌍 Based in Cottbus, Germany
 
 ## 🛠️ Tech Stack
 
