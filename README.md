@@ -27,7 +27,7 @@
 | Project | What it does |
 |---|---|
 | 🎙️ **[pass-the-mic](https://github.com/rahuloruganti/pass-the-mic)** | Multi-agent voice roundtable: AI agents on separate laptops debate live over local Wi-Fi, speaking aloud in turns |
-| 🌱 **[charbit](https://github.com/rahuloruganti/charbit)** | "v2 better me", a full-stack habit platform built on Atomic Habits (build and break habits) |
+| 🌱 **BetterMe** | Habit builder and breaker with weekly and monthly challenges and achievements; Next.js, React, Supabase (private repo) |
 | 🧪 **[rag-testcase-generation](https://github.com/rahuloruganti/rag-testcase-generation)** | RAG + FAISS + DVC pipeline that generates pytest cases from an existing suite |
 | 🏛️ **[btu_course_mcp](https://github.com/rahuloruganti/btu_course_mcp)** | MCP server tying university course data into LLM workflows |
 | 🔬 **[ai-engineering-from-scratch](https://github.com/rahuloruganti/ai-engineering-from-scratch)** | Learning AI by building it from first principles, then shipping it for others |
