@@ -18,9 +18,13 @@
 
 <div align="center">
 <a href="https://github.com/rahuloruganti">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,docker,git,githubactions,js,ts,nextjs,nodejs,postgres,mongodb,bash,linux,vscode,md&perline=8" alt="tech stack" />
+  <img src="https://skillicons.dev/icons?i=py,pytorch,fastapi,ts,js,react,nextjs,nodejs,tailwind,rust,tauri,postgres,supabase,vercel,docker,git,githubactions,bash,powershell,linux,vscode,md&perline=11" alt="tech stack" />
 </a>
 </div>
+
+<p align="center">
+  <sub><b>AI/ML:</b> Hugging Face · LangChain · FAISS · DVC · QLoRA fine-tuning · MCP &nbsp;|&nbsp; <b>Automation:</b> n8n · Power Automate</sub>
+</p>
 
 ## ⚡ What I'm Working On
 
