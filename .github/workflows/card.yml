@@ -1,0 +1,36 @@
+name: Update terminal card
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # daily refresh
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/gen_card.py
+      - .github/workflows/card.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: card
+  cancel-in-progress: true
+
+jobs:
+  card:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate assets/card.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+        run: python scripts/gen_card.py
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/card.svg
+          git diff --cached --quiet || (git commit -m "chore: refresh terminal card" && git push)

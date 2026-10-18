@@ -36,6 +36,12 @@
 | 🏛️ **[btu_course_mcp](https://github.com/rahuloruganti/btu_course_mcp)** | MCP server tying university course data into LLM workflows |
 | 🔬 **[ai-engineering-from-scratch](https://github.com/rahuloruganti/ai-engineering-from-scratch)** | Learning AI by building it from first principles, then shipping it for others |
 
+## 📟 Live Terminal
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/rahuloruganti/rahuloruganti/main/assets/card.svg" alt="Animated terminal card with live GitHub stats" width="100%" />
+</div>
+
 ## 📊 GitHub Stats
 
 <div align="center">
