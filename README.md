@@ -43,6 +43,12 @@
   <img src="https://raw.githubusercontent.com/rahuloruganti/rahuloruganti/main/assets/card.svg" alt="Animated terminal card with live GitHub stats" width="100%" />
 </div>
 
+## 🔥 GitHub Streak
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=rahuloruganti&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+</div>
+
 ## 🐍 Contribution Snake
 
 <picture>
