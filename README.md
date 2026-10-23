@@ -30,36 +30,17 @@
 
 | Project | What it does |
 |---|---|
-| 🎙️ **[pass-the-mic](https://github.com/rahuloruganti/pass-the-mic)** | Multi-agent voice roundtable: AI agents on separate laptops debate live over local Wi-Fi, speaking aloud in turns |
-| 🌱 **BetterMe** | Habit builder and breaker with weekly and monthly challenges and achievements; Next.js, React, Supabase (private repo) |
+| 📊 **[hermes-ai-subscriptions](https://github.com/rahuloruganti/hermes-ai-subscriptions)** | Hermes Desktop plugin: every AI subscription, live quota and token usage across Hermes, Claude Code and the Grok CLI in one page |
+| 🎙️ **[pass-the-mic](https://github.com/rahuloruganti/pass-the-mic)** | Multi-agent voice roundtable: AI agents on separate laptops debate live over local Wi-Fi (fork of Chandukasireddy/pass-the-mic) |
 | 🧪 **[rag-testcase-generation](https://github.com/rahuloruganti/rag-testcase-generation)** | RAG + FAISS + DVC pipeline that generates pytest cases from an existing suite |
-| 🏛️ **[btu_course_mcp](https://github.com/rahuloruganti/btu_course_mcp)** | MCP server tying university course data into LLM workflows |
-| 🔬 **[ai-engineering-from-scratch](https://github.com/rahuloruganti/ai-engineering-from-scratch)** | Learning AI by building it from first principles, then shipping it for others |
+| 🏛️ **[btu_course_mcp](https://github.com/rahuloruganti/btu_course_mcp)** | MCP server that searches BTU courses, schedules and module info from the LSF portal for Claude Desktop |
+| 🌱 **BetterMe** | Habit builder and breaker with challenges and achievements; Next.js, React, Supabase (private) |
+| 📝 **OpenMeet** | Local-first desktop meeting notes: Tauri, Rust, React, Windows audio capture (private) |
 
 ## 📟 Live Terminal
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/rahuloruganti/rahuloruganti/main/assets/card.svg" alt="Animated terminal card with live GitHub stats" width="100%" />
-</div>
-
-## 📊 GitHub Stats
-
-<div align="center">
-<table>
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=rahuloruganti&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub stats" />
-    </td>
-    <td>
-      <img src="https://streak-stats.demolab.com?user=rahuloruganti&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rahuloruganti&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
-    </td>
-  </tr>
-</table>
 </div>
 
 ## 🐍 Contribution Snake
