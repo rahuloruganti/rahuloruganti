@@ -6,6 +6,13 @@
 
 </div>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/BTU_Cottbus-MS_AI-1f6feb?style=for-the-badge&logo=academia&logoColor=white" alt="BTU Cottbus" />
+  <img src="https://img.shields.io/badge/UNFCCC-Mitigation_Intern-009edb?style=for-the-badge&logo=unitednations&logoColor=white" alt="UNFCCC" />
+  <img src="https://img.shields.io/badge/Cottbus-Germany-bb9af7?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Cottbus, Germany" />
+  <img src="https://img.shields.io/badge/Languages-EN_·_DE_·_TE-9ece6a?style=for-the-badge" alt="English, German, Telugu" />
+</p>
+
 ## 🧭 About Me
 
 - 🎓 **MS Artificial Intelligence** at BTU Cottbus-Senftenberg
@@ -37,10 +44,33 @@
 | 🌱 **BetterMe** | Habit builder and breaker with challenges and achievements; Next.js, React, Supabase (private) |
 | 📝 **OpenMeet** | Local-first desktop meeting notes: Tauri, Rust, React, Windows audio capture (private) |
 
+## 🔄 How I Build
+
+```mermaid
+flowchart LR
+    A["🌍 Climate-policy documents<br/>NDCs · Article 6"] --> B["📄 Extraction + OCR"]
+    B --> C["🧠 RAG · Knowledge graphs"]
+    C --> D["📏 LLM evaluation"]
+    D --> E["🤖 Agentic workflows"]
+    E --> F["⚙️ Automation<br/>n8n · Power Automate"]
+    D -. "fix what the evals find" .-> C
+    style A fill:#1f6feb,stroke:#58a6ff,color:#fff
+    style C fill:#6e40c9,stroke:#bb9af7,color:#fff
+    style D fill:#bf8700,stroke:#e3b341,color:#fff
+    style F fill:#238636,stroke:#3fb950,color:#fff
+```
+
 ## 📟 Live Terminal
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/rahuloruganti/rahuloruganti/main/assets/card.svg" alt="Animated terminal card with live GitHub stats" width="100%" />
+</div>
+
+## 🧬 Languages & Activity
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/rahuloruganti/rahuloruganti/main/assets/langs.svg" alt="Language breakdown across public repos" width="100%" />
+  <img src="https://raw.githubusercontent.com/rahuloruganti/rahuloruganti/main/assets/activity.svg" alt="Contribution graph, last 52 weeks" width="100%" />
 </div>
 
 ## 🔥 GitHub Streak

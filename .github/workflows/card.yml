@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - scripts/gen_card.py
+      - scripts/gen_extras.py
       - .github/workflows/card.yml
 
 permissions:
@@ -23,14 +24,16 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
-      - name: Generate assets/card.svg
+      - name: Generate assets (card, langs, activity)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_USER: ${{ github.repository_owner }}
-        run: python scripts/gen_card.py
+        run: |
+          python scripts/gen_card.py
+          python scripts/gen_extras.py
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/card.svg
-          git diff --cached --quiet || (git commit -m "chore: refresh terminal card" && git push)
+          git add assets/*.svg
+          git diff --cached --quiet || (git commit -m "chore: refresh profile assets" && git push)
