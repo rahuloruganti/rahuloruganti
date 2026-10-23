@@ -44,22 +44,6 @@
 | 🌱 **BetterMe** | Habit builder and breaker with challenges and achievements; Next.js, React, Supabase (private) |
 | 📝 **OpenMeet** | Local-first desktop meeting notes: Tauri, Rust, React, Windows audio capture (private) |
 
-## 🔄 How I Build
-
-```mermaid
-flowchart LR
-    A["🌍 Climate-policy documents<br/>NDCs · Article 6"] --> B["📄 Extraction + OCR"]
-    B --> C["🧠 RAG · Knowledge graphs"]
-    C --> D["📏 LLM evaluation"]
-    D --> E["🤖 Agentic workflows"]
-    E --> F["⚙️ Automation<br/>n8n · Power Automate"]
-    D -. "fix what the evals find" .-> C
-    style A fill:#1f6feb,stroke:#58a6ff,color:#fff
-    style C fill:#6e40c9,stroke:#bb9af7,color:#fff
-    style D fill:#bf8700,stroke:#e3b341,color:#fff
-    style F fill:#238636,stroke:#3fb950,color:#fff
-```
-
 ## 📟 Live Terminal
 
 <div align="center">
