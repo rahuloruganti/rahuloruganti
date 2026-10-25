@@ -26,5 +26,5 @@
 <g clip-path="url(#track)"><rect class="grow" style="animation-delay:0.20s" x="34.0" y="88" width="503.6" height="14" fill="#3572A5"><title>Python: 63.6%</title></rect><rect class="grow" style="animation-delay:0.32s" x="537.6" y="88" width="288.4" height="14" fill="#f1e05a"><title>JavaScript: 36.4%</title></rect></g>
 <g class="appear" style="animation-delay:0.90s"><circle cx="40" cy="132" r="6" fill="#3572A5"/><text x="54" y="136" class="val">Python</text><text x="118" y="136" class="dim">63.6%</text></g>
 <g class="appear" style="animation-delay:1.00s"><circle cx="310" cy="132" r="6" fill="#f1e05a"/><text x="324" y="136" class="val">JavaScript</text><text x="424" y="136" class="dim">36.4%</text></g>
-<text x="830" y="176" text-anchor="end" class="dim">refreshed 2026-10-24</text>
+<text x="830" y="176" text-anchor="end" class="dim">refreshed 2026-10-25</text>
 </svg>
