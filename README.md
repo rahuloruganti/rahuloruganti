@@ -42,7 +42,7 @@
 | 🧪 **[rag-testcase-generation](https://github.com/rahuloruganti/rag-testcase-generation)** | RAG + FAISS + DVC pipeline that generates pytest cases from an existing suite |
 | 🏛️ **[btu_course_mcp](https://github.com/rahuloruganti/btu_course_mcp)** | MCP server that searches BTU courses, schedules and module info from the LSF portal for Claude Desktop |
 | 🌱 **BetterMe** | Habit builder and breaker with challenges and achievements; Next.js, React, Supabase (private) |
-| 📝 **OpenMeet** | Local-first desktop meeting notes: Tauri, Rust, React, Windows audio capture (private) |
+| 📝 **[OpenMeet](https://github.com/rahuloruganti/OpenMeet)** | Local-first Windows meeting notes: records mic and system audio, transcribes on your PC, writes AI notes with a model you choose; Python, FastAPI, React |
 
 ## 📟 Live Terminal
 
