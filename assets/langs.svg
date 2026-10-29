@@ -30,5 +30,5 @@
 <g class="appear" style="animation-delay:1.20s"><circle cx="40" cy="162" r="6" fill="#f1e05a"/><text x="54" y="166" class="val">JavaScript</text><text x="154" y="166" class="dim">3.1%</text></g>
 <g class="appear" style="animation-delay:1.30s"><circle cx="310" cy="162" r="6" fill="#012456"/><text x="324" y="166" class="val">PowerShell</text><text x="424" y="166" class="dim">0.1%</text></g>
 <g class="appear" style="animation-delay:1.40s"><circle cx="580" cy="162" r="6" fill="#384d54"/><text x="594" y="166" class="val">Just</text><text x="640" y="166" class="dim">0.1%</text></g>
-<text x="830" y="176" text-anchor="end" class="dim">refreshed 2026-10-28</text>
+<text x="830" y="176" text-anchor="end" class="dim">refreshed 2026-10-29</text>
 </svg>
