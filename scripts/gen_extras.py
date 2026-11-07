@@ -46,10 +46,10 @@ def frame(w, h, title):
     )
 
 
-def write(name, w, h, body, label):
+def write(name, w, h, title, body, label):
     svg = (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{escape(label)}">\n'
-        f"{STYLE}\n{FRAME}\n{body}\n</svg>\n"
+        f"{STYLE}\n{FRAME}\n{frame(w, h, title)}\n{body}\n</svg>\n"
     )
     path = os.path.join(ASSETS, name)
     os.makedirs(ASSETS, exist_ok=True)
@@ -92,7 +92,7 @@ def langs_svg(u):
             f'<text x="{cx+20+9*len(n)+10}" y="{cy}" class="dim">{100*v/total:.1f}%</text></g>'
         )
     body.append(f'<text x="{W-30}" y="{H-14}" text-anchor="end" class="dim">refreshed {date.today().isoformat()}</text>')
-    write("langs.svg", W, H, "\n".join(body), f"Top languages for {USER}")
+    write("langs.svg", W, H, f"{USER}: ~/languages", "\n".join(body), f"Top languages for {USER}")
 
 
 def activity_svg(u):
@@ -142,7 +142,7 @@ def activity_svg(u):
         f'<text x="{px-12:.1f}" y="{py+4:.1f}" text-anchor="end" class="val">peak {data[pk][1]} · week of {data[pk][0]}</text></g>'
     )
     body.append(f'<text x="{W-30}" y="62" text-anchor="end" class="dim">{cal["totalContributions"]:,} contributions · refreshed {date.today().isoformat()}</text>')
-    write("activity.svg", W, H, "\n".join(body), f"Contribution graph for {USER}")
+    write("activity.svg", W, H, f"{USER}: ~/activity", "\n".join(body), f"Contribution graph for {USER}")
 
 
 if __name__ == "__main__":
